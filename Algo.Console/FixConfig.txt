@@ -1,0 +1,42 @@
+﻿# default settings for sessions
+[DEFAULT]
+ResetOnLogon=Y 
+# ResetOnLogout=Y 
+# ResetOnDisconnect=Y 
+FileStorePath=storage/store
+FileLogPath=storage/logs
+ConnectionType=initiator
+ReconnectInterval=60
+UseDataDictionary=Y
+DataDictionary=FIXBCS.xml
+AllowUnknownMsgFields=Y
+CheckLatency=N
+RequiresOrigSendingTime=N
+UseProxy=N
+
+
+# Transactions
+[SESSION]
+BeginString=FIX.4.2
+TargetCompID=BCS_PREPROD_17011_new
+SenderCompID=FIX_PREPROD_17011_new
+StartTime=6:30:00
+EndTime=23:30:00
+HeartBtInt=30
+SocketConnectPort=17011
+SocketConnectHost=localhost
+SessionType=Transaction
+
+# Market Data
+[SESSION]
+# inherit FileStorePath, FileLogPath, ConnectionType, 
+#    ReconnectInterval and SenderCompID from default
+BeginString=FIX.4.2
+TargetCompID=BCSMD_PREPROD_17012_new
+SenderCompID=FIXMD_PREPROD_17012_new
+StartTime=6:30:00
+EndTime=23:30:00
+HeartBtInt=30
+SocketConnectPort=17012
+SocketConnectHost=localhost 
+SessionType=MarketData

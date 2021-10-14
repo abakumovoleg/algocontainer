@@ -1,0 +1,16 @@
+﻿{
+  "state": "Completed",
+  "orders": [
+    {
+      "volume": 50,
+      "price": 100,
+      "direction": "Buy"
+    },
+    {
+      "volume": 50,
+      "price": 100.01,
+      "direction": "Buy"
+    }
+  ]
+
+}

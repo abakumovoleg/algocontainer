@@ -1,0 +1,31 @@
+﻿[
+
+  {
+    "marketDepth": {
+      "bids": [
+      ],
+      "asks": [
+        {
+          "volume": 50,
+          "price": 100
+        }
+      ]
+    }
+  },
+  {
+    "type": "Delay",
+    "delay": 4
+  },
+  {
+    "marketDepth": {
+      "bids": [
+      ],
+      "asks": [
+        {
+          "volume": 50,
+          "price": 100
+        }
+      ]
+    }
+  }
+]

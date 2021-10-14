@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Bcs.Fx.Algo.Container</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="4.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Algo.Abstracts\Algo.Abstracts.csproj" />
+    <ProjectReference Include="..\Messages\FIXBCS\QuickFix.Bcs.csproj" />
+    <ProjectReference Include="..\QuickFIXn\QuickFix.csproj" />
+  </ItemGroup>
+ 
+
+</Project>

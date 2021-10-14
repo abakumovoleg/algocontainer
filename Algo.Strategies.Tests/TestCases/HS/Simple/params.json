@@ -1,0 +1,6 @@
+﻿{
+  "volume": 100,
+  "direction": "Buy",
+  "priceStep": 0.01,
+  "maxOrderCount": 10
+}

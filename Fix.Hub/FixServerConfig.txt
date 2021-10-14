@@ -1,0 +1,38 @@
+﻿# default settings for sessions
+[DEFAULT]
+ResetOnLogon=Y 
+# ResetOnLogout=Y 
+# ResetOnDisconnect=Y 
+FileStorePath=server-storage/store
+FileLogPath=server-storage/logs
+ConnectionType=acceptor
+ReconnectInterval=60
+UseDataDictionary=N
+DataDictionary=FIXBCS.xml
+AllowUnknownMsgFields=Y
+CheckLatency=N
+RequiresOrigSendingTime=N
+UseProxy=N
+SocketAcceptPort=17011
+
+
+# Client 1
+[SESSION]
+BeginString=FIX.4.2
+TargetCompID=FIX_PREPROD_17011_new
+SenderCompID=BCS_PREPROD_17011_new
+StartTime=6:30:00
+EndTime=23:30:00
+HeartBtInt=30 
+SessionType=Transaction
+
+
+# Client 2
+[SESSION]
+BeginString=FIX.4.2
+TargetCompID=FIX_PREPROD_17011_new_2
+SenderCompID=BCS_PREPROD_17011_new_2
+StartTime=6:30:00
+EndTime=23:30:00
+HeartBtInt=30 
+SessionType=Transaction

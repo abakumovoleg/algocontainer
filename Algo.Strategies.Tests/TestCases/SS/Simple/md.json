@@ -1,0 +1,15 @@
+﻿[
+  
+  {
+    "marketDepth": {
+      "bids": [ 
+      ],
+      "asks": [
+        {
+          "volume": 1000,
+          "price": 100
+        }
+      ]
+    }
+  }
+]

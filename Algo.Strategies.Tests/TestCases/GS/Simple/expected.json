@@ -1,0 +1,10 @@
+﻿{
+  "state":"Completed",
+  "orders":[
+    {
+      "volume": 100,
+      "direction": "Buy",
+      "price": 90
+    }
+  ]
+}

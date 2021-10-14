@@ -1,0 +1,30 @@
+﻿[
+
+  {
+    "marketDepth": {
+      "bids": [ 
+      ],
+      "asks": [
+        {
+          "volume": 50,
+          "price": 100
+        }
+      ]
+    }
+  },
+  {
+    "type": "WaitOrder"
+  },
+  {
+    "marketDepth": {
+      "bids": [ 
+      ],
+      "asks": [
+        {
+          "volume": 50,
+          "price": 100
+        }
+      ]
+    }
+  }
+]

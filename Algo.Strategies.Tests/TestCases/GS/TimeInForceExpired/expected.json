@@ -1,0 +1,15 @@
+﻿{
+  "state":"Failed",
+  "orders":[
+    {
+      "volume": 100,
+      "direction": "Buy",
+      "price": 90
+    },
+    {
+      "volume": 100,
+      "direction": "Buy",
+      "price": 90
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+﻿{
+  "volume": 100,
+  "direction": "Buy",
+  "timeInForce": 3,
+  "waitTime": 2
+}

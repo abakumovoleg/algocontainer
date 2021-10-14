@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=374937e3_002D7fe2_002D483e_002Dbf9b_002D863a57f78457/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="OrderFailTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::E9B141BE-68FB-4B24-9C1A-2C4EAA58C755::.NETCoreApp,Version=v3.1::Algo.Strategies.Tests.FixingStrategyUnitTests.OrderFailTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fbb60e8a_002De0d4_002D422b_002Db600_002D5afd511685e5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestMethod1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::E9B141BE-68FB-4B24-9C1A-2C4EAA58C755::.NETCoreApp,Version=v3.1::Algo.Strategies.Tests.StrategiesUnitTests.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::E9B141BE-68FB-4B24-9C1A-2C4EAA58C755::.NETCoreApp,Version=v3.1::Algo.Strategies.Tests.StrategiesUnitTests.TestOne&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fcc112e5_002D296d_002D45e8_002D98f5_002Dfa6303111876/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::E9B141BE-68FB-4B24-9C1A-2C4EAA58C755::.NETCoreApp,Version=v3.1::Algo.Strategies.Tests.FixingStrategyUnitTests.Test&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
